@@ -1,0 +1,30 @@
+.qutu1{
+    height: 1000px ;
+    width: 1500px;
+    background: white;
+    margin: 0px auto;
+    padding: 32px;
+}
+.bigbox{
+    width: 965px;
+    height: 700px;
+    background: white;
+    margin: 0px 13px;
+    border: 1px solid black;
+}
+.middle{
+    background:white;
+    height: 280px;
+    width: 465px;
+    margin: 20px 13px;
+    display: inline-block;
+    border: 1px solid black;
+}
+.middlebig{
+    background: white;
+    height:280px;
+    width: 470px;
+    border: 1px solid black;
+    margin: 35px;
+    
+}
