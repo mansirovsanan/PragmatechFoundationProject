@@ -64,3 +64,26 @@ height: 100%;
     margin-top: -13px;
     margin-left: 18px;
 }
+.grid-container{
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 2px solid forestgreen;
+}
+.grid-item{
+background-color: #191919;
+color: #888;
+padding-left: 20px;
+border: 1px solid wheat;
+}
+.grid-item ,b {
+    font-weight: bold;
+    color: #fff;
+}
+.grid-item ,p {
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    color: #888;
+    line-height: 1.75em;
+}
