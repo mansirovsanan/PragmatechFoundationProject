@@ -5,7 +5,7 @@ let adlar=["Aysel","Seyyad","Senan","Mehdi","Murad"];
 
 let soyadlar=["Mustafayeva","Omerov","Mansurov","Cefer","Qafarli"]
 
-let yas=['21','19','22','17' '18']
+let yas=['21','19','22','17', '18']
 
     function qrup() {
 
