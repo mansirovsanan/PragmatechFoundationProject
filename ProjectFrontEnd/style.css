@@ -15,10 +15,13 @@
 }
 .bg-img{
 background-image: url(http://duruthemes.com/demo/html/mccan/dark/images/slider.jpg);
-background-size: contain;
+background-size: cover;
 background-repeat:no-repeat;
 width: 100%;
-height: 100%;
+height: 100vh;
+position: fixed;
+bottom: 0;
+width: 400px;
 }
 .navbar-menu{
     height: 130px;
@@ -64,26 +67,14 @@ height: 100%;
     margin-top: -13px;
     margin-left: 18px;
 }
-.grid-container{
-    height: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    border: 2px solid forestgreen;
-}
-.grid-item{
-background-color: #191919;
-color: #888;
-padding-left: 20px;
-border: 1px solid wheat;
-}
-.grid-item ,b {
-    font-weight: bold;
-    color: #fff;
-}
-.grid-item ,p {
-    font-family: 'Rambla', sans-serif;
-    font-size: 15px;
+
+.rowMcCan{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 90px;
     color: #888;
-    line-height: 1.75em;
+    font-size: 15px;
+    font-family: 'Rambla', sans-serif;
 }
+

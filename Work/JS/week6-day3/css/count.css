@@ -1,0 +1,27 @@
+body,
+h1,
+h5{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#countSection{
+    padding: 50px 0px;
+    background: #5ededd;
+}
+
+.count-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.count-item{
+    text-align: center;
+    color: white;
+}
+
+.count-item h1{
+    font-size: 4em;
+}
