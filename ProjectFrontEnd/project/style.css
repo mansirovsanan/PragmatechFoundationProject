@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    font-family: 'Rambla', sans-serif;
+    color: #888;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.75em;
+    min-height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #191919;
+    display: block;
+}
+
+#containerHeader{
+    position: fixed;
+    display: flex;
+    left: 35px;
+    top: 25px;
+    z-index: 8;
+}
+
+.logo{
+    width: 100px;
+    max-width: 100px;
+}
+
+#containerHeader .logo a{
+    display: inline-block;
+    color: #F68338;
+}
+
+.logo img{
+    border: 0;
+    height: auto;
+    display: inline-block;
+}
+
+#site-menu{
+    display: flex;
+    width: 1090px;
+    height: 140px;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    align-items: center;
+}
+
+.nav-menu{
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.nav-menu a{
+    font-size: 17px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #888;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+
+
+.nav-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.nav-menu li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#social-profiles{
+    position: fixed;
+    top: 300px;
+    right: auto;
+    visibility: visible;
+    opacity: 1;
+    z-index: 9;
+    max-width: 200px;
+}
+
+
+
+.social-menu{
+    font-size: 70px;
+    display: block;
+}
+
+.social-menu ul{
+
+}
+
+
+.social-menu li{
+    color: #fff;
+}
+
+.social-menu a{
+    
+}
+
+
+.hero-media{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 450px;
+    background-image: url(http://duruthemes.com/demo/html/mccan/dark/images/slider.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.item-media{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.containerBig{
+    float: right;
+    position: relative;
+    z-index: 3;
+    background-color: #191919;
+    width: 700px;
+    margin-top: 120px;
+    margin-right: 40px;
+}
+
+.containerBig .title-small{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #F68338;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.containerBig .title{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-top: -25px;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-container .grid-column{
+    position: relative;
+    width: 100vh;
+}
+
+.grid-column p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    margin-top: -15px;
+    color: #888;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-right: -50px;
+    margin-top: 30px;
+}
+
+.col-md-6{
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -80px;
+}
+
+.col-md-6 p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #888;
+    margin: 0px 0px 20px 0px;
+}
+
+.col-md-6 b{
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn{
+    background: #F68338;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #F68338;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.dvider1{
+    height: 1px;
+    background: #222;
+    margin: 70px 0px;
+}
+
+
+
+ 
