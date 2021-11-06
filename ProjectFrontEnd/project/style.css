@@ -41,7 +41,7 @@ body{
     width: 1090px;
     height: 140px;
     position: fixed;
-    z-index: 4;
+    z-index: 0;
     top: 0;
     right: 0;
     align-items: center;
@@ -91,13 +91,14 @@ body{
     opacity: 1;
     z-index: 9;
     max-width: 200px;
+    display: flex;
 }
 
 
 
 .social-menu{
     font-size: 70px;
-    display: block;
+    display: flex;
 }
 
 .social-menu ul{
@@ -224,14 +225,57 @@ body{
     border-radius: 0.25rem;
     position: relative;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
-.dvider1{
-    height: 1px;
-    background: #222;
-    margin: 70px 0px;
+.line{
+   height: 1px;
+   background: #222;
+   margin: 70px 0px;
 }
 
+.services-container{
+display: block;
+
+}
+
+
+.services-item{
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 1px solid #222;
+    text-align: center;
+    max-width: 50%;
+    padding: 0px 50px;
+}
+
+.services-item .mccan-text h3{
+width: 100%;
+color: #fff;
+}
+
+.row1{
+    display: flex;
+    margin-right: 400px;
+}
+
+.row2{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 400px;
+}
+
+.row-3{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 400px;
+}
+
+.write a{
+    color: #F68338;
+    text-decoration: none;
+}
 
 
  
