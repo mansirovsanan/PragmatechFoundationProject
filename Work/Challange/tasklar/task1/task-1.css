@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 200px;
+}
+
+button{
+    color:whitesmoke;
+    background: black;
+    border-radius: 30px;
+    height: 70px;
+    border: 2px solid red;
+    font-size: 20px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+
+}

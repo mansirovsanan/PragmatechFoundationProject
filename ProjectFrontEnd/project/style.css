@@ -17,7 +17,7 @@ body{
     display: flex;
     left: 35px;
     top: 25px;
-    z-index: 8;
+    z-index: 11;
 }
 
 .logo{
@@ -41,10 +41,11 @@ body{
     width: 1090px;
     height: 140px;
     position: fixed;
-    z-index: 0;
+    z-index: 4;
     top: 0;
     right: 0;
     align-items: center;
+    background: #191919;
 }
 
 .nav-menu{
@@ -80,6 +81,7 @@ body{
 .nav-menu li{
     display: inline-block;
     font-size: 20px;
+    padding: 10px;
 }
 
 
@@ -89,7 +91,7 @@ body{
     right: auto;
     visibility: visible;
     opacity: 1;
-    z-index: 9;
+    z-index: 11;
     max-width: 200px;
     display: flex;
 }
@@ -97,8 +99,9 @@ body{
 
 
 .social-menu{
-    font-size: 70px;
-    display: flex;
+    font-size: 30px;
+    position: fixed;
+    bottom: 0px;
 }
 
 .social-menu ul{
@@ -107,11 +110,11 @@ body{
 
 
 .social-menu li{
-    color: #fff;
+    color: #F68338;
 }
 
 .social-menu a{
-    
+    color: #fff;
 }
 
 
@@ -124,6 +127,7 @@ body{
     background-image: url(http://duruthemes.com/demo/html/mccan/dark/images/slider.jpg);
     background-size: cover;
     background-position: center center;
+    z-index: 10;
 }
 
 
@@ -248,6 +252,12 @@ display: block;
     text-align: center;
     max-width: 50%;
     padding: 0px 50px;
+}
+
+.services-item .mccan-icon i{
+    color: #F68338;
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 .services-item .mccan-text h3{
