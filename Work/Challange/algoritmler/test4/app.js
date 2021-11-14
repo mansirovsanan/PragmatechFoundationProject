@@ -2,6 +2,8 @@
 
 let numbers=[45, 4, 9, 16, 25];
 
-let x=numbers.length
+for( let i=0;i<numbers.length;i++){
+   
+    console.log(i,numbers[i])
 
-console.log(numbers)
+}

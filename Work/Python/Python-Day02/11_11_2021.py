@@ -1,3 +1,6 @@
+from _typeshed import FileDescriptor
+
+
 telebeler=[
     {
     'ad':'Samir',
@@ -29,47 +32,47 @@ telebeler=[
 
 # Butun adlari ekrana cap edin
 
-for x in telebeler:
-    print(x)
+# for x in telebeler:
+#     print(x)
 
 
-print(len(telebeler))
+# print(len(telebeler))
 
 
-for x in range(len(telebeler)):
-    print(telebeler[x]['ad'])
+# for x in range(len(telebeler)):
+#     print(telebeler[x]['ad'])
 
 
 # Istidadecilerin yaslarinin cemini tapin
 
 
-for x in range(len(telebeler)):
-    print(telebeler[x]['yas'])
+# for x in range(len(telebeler)):
+#     print(telebeler[x]['yas'])
 
 
-Yas=0
-for x in range(len(telebeler)):
-    Yas += telebeler[x]['yas']
-print('Telebe yaslarinin cemi:', Yas)
+# Yas=0
+# for x in range(len(telebeler)):
+#     Yas += telebeler[x]['yas']
+# print('Telebe yaslarinin cemi:', Yas)
 
 
 
 
 # adi Ehmed olan istifadecinin butun melumatlarini ekrana cap edin
 
-print(telebeler[4]['ad'])
-print(telebeler[4]['soyad'])
-print(telebeler[4]['yas'])
+# print(telebeler[4]['ad'])
+# print(telebeler[4]['soyad'])
+# print(telebeler[4]['yas'])
 
 
 
-Ad=input('telebe adini daxi edin: ')
+# Ad=input('telebe adini daxi edin: ')
 
-for x in range(len(telebeler)):
+# for x in range(len(telebeler)):
 
-    if (telebeler[x]['ad']) == Ad :
+#     if (telebeler[x]['ad']) == Ad :
 
-        print(Ad, 'adli telebenin melumatlari', (telebeler[x]))
+#         print(Ad, 'adli telebenin melumatlari', (telebeler[x]))
 
 
 
@@ -79,14 +82,34 @@ for x in range(len(telebeler)):
     # daxil edilen ada əsasən o istifadecinin butun melumatlarini ekrana cap etsin
 
 
-def findUser(userName):
+# def findUser(userName):
         
-        for x in range(len(telebeler)):
+#         for x in range(len(telebeler)):
 
-            if (telebeler[x]['ad']) == userName:
+#             if (telebeler[x]['ad']) == userName:
 
-                return telebeler[x]
+#                 return telebeler[x]
 
-print(findUser('Ehmed'))
+# print(findUser('Ehmed'))
+
+
+# İstifadecilerin yas ortalamasini tapin. Yasi ortalama yasdan boyuk olan istifadecilerin melumatlarini ekrana cap edin
+
+def yasOrtalamasi():
+
+    cem=0
+
+    for telebe in telebeler:
+        cem+=telebe['yas']
+
+    return cem/len(telebeler)
+
+for telebe in telebeler:
+    
+    if telebe['yas']>yasOrtalamasi():
+
+        print(f'{telebe['ad']}-{telebe['soyad']}-{telebe['yas']}')
+
+
     
 
