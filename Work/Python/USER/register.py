@@ -1,6 +1,6 @@
 # istifadecinin qeydiyyatdan kesmesi ucun lazim olan kodlar burda olacaq
 from data import User,users
-import login
+
 def registerUser():
     ad=input('Adiniz:')
     soyad=input('Soyadiniz:')

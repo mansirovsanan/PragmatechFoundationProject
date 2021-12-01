@@ -1,4 +1,5 @@
 import register,login
+
 while True:
     print("""
         1.Qeydiyyatdan keç
@@ -10,6 +11,6 @@ while True:
     if emr=='1':
         register.registerUser()
     elif emr=='2':
-        login.userLogin()
+        login.userLogin(1)
     else:
         break
