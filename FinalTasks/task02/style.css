@@ -352,7 +352,6 @@ text-decoration: none;
 
 /* About Start */
 #about{
-    /* height: 200px; */
     margin-top: 60px;
 }
 
@@ -551,13 +550,26 @@ margin-top: 70px;
     padding: 30px 60px;
 }
 
-
-#page-footer{
+/* #page-footer{
     background: #323946;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
+} */
+
+#privacy{
+    background: #282e3a;;
 }
-.c-i-container{
-    display: flex;
+
+.privacy-text{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.privacy-text a{
+    text-decoration: none;
+    color: #fff;
+    transition: .33s all ease-out;
+}
+.privacy-text a:hover{
+    color: #24a3d8;
 }
